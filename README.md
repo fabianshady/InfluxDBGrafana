@@ -7,7 +7,7 @@
 
 ``` sudo systemctl start docker && sudo usermod -aG docker $USER ```
 
-<h1>Al terminar estos comandos cerrar sesion y volver a entrar</h1>
+<p>Al terminar estos comandos cerrar sesion y volver a entrar</p>
 
 
 <h1>Detener influxdb, grafana y telegraf si es que estan instalados</h1>
@@ -28,3 +28,4 @@
 <h1>Entrar a la consola del contenedor de telegraf para configurarlo</h1>
 
 ``` docker exec -ti telegraf /bin/bash ```
+``` telegraf --config /etc/telegraf/telegraf.conf
