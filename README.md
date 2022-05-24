@@ -28,4 +28,4 @@
 <h1>Entrar a la consola del contenedor de telegraf para configurarlo</h1>
 
 ``` docker exec -ti telegraf /bin/bash ```
-``` telegraf --config /etc/telegraf/telegraf.conf
+``` telegraf --config /etc/telegraf/telegraf.conf ```
